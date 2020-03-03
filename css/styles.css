@@ -1,0 +1,145 @@
+html {
+    font-family: 'Nunito';
+    height: 100vh;
+}
+
+.dashboard-col {
+    text-align: center;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.dashboard-col-1 {
+    border-right: 10px solid #f8f9fa;
+    text-align: center;
+
+}
+
+.dashboard-service-1 {
+    height: 50%;
+    border-width: 5px;
+    border-color: #ff4d4d;
+    border-style: solid;
+    padding: 10px;
+}
+
+.image-fit {
+    width: 100%;
+    object-fit: cover;
+}
+
+.col-extension {
+    height: 100vh;
+}
+
+.current-services-header {
+    font-size: 100%;
+}
+
+#particles-js {
+    height: 100vh;
+    background-color: white;
+}
+
+.login-link {
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+}
+
+.modal-input-box {
+    margin-bottom: 5px;
+}
+
+.login-header {
+    text-align: center;
+}
+
+.dashboard-services {
+    position: absolute;
+    text-align: center;
+}
+
+.status {
+    list-style: none;
+}
+
+.status-good::before {
+    content: "\2022";
+    color: green;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+
+.status-idle::before {
+    content: "\2022";
+    color: rgb(255, 251, 0);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+
+.status-stop::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+
+.index-footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    background-color: white;
+    text-align: center;
+}
+
+.service-one {
+    margin: 25px;
+    width: 40%;
+    height: 50%;
+    float: left;
+    background-color: white;
+}
+
+.service-two {
+    margin: 25px;
+    width: 40%;
+    height: 50%;
+    float: right;
+    background-color: white;
+}
+
+.service-three {
+    margin: 25px;
+    width: 40%;
+    height: 50%;
+    float: left;
+    background-color: white;
+}
+
+.service-four {
+    margin: 25px;
+    width: 40%;
+    height: 50%;
+    float: right;
+    background-color: white;
+}
+
+.service-status-left {
+    text-align: center;
+    width: 50%;
+    float: left;
+}
+
+.service-status-right {
+    text-align: center;
+    width: 50%;
+    float: right;
+}
